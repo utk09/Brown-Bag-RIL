@@ -1,7 +1,7 @@
 // get the app items
 
 
-// on submit
+// on Submit
 
 
-//load local storage on first load
+//load local storage
