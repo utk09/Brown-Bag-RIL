@@ -10,8 +10,17 @@ var keyData = {
         sound: new Howl({
             src: ['sounds/clay.mp3']
         }),
-        color: '#2ecc71'
+        color: '#1abc9c'
+    },
+
+    e: {
+        sound: new Howl({
+            src: ['sounds/strike.mp3']
+        }),
+        color: '#1abc9c'
     }
+
+
 }
 
 var circles = [];
@@ -31,10 +40,9 @@ function onKeyDown(event) {
 function onFrame(e) {
     for (var i = 0; i < circles.length; i++) {
         circles[i].fillColor.hue += 1;
-        circles[i].scale(.9);
+        circles[i].scale(0.9);
     }
 }
-
 
 function onFrame(event) {
     for (var i = 0; i < circles.length; i++) {
